@@ -6,12 +6,12 @@ paginate: 10
 hasCJKLanguage: true
 params:
   footer:
-    gongan:
-      code: "324234234234"
-      txt: "京公网安备1212号"
-    beian: "京IICP备121212号"
+#    gongan:
+#      code: "324234234234"
+#      txt: "京公网安备1212号"
+#    beian: "京IICP备121212号"
     since: 2020
-    copyright: jiangyy
+    copyright: XXX
   prefix:
     h2: "※ "
     h3: "✧ "
