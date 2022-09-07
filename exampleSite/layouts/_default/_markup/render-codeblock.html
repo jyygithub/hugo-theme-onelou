@@ -1,0 +1,12 @@
+<div class="highlight">
+    <span class="highlight-type">{{ .Type }}</span>
+    <pre><code class="language-{{ .Type }} hljs" data-lang="{{ .Type }}">{{ .Inner }}</code></pre>
+</div>
+
+<style>
+    .highlight-type {
+        content: "{{ .Type }}";
+        position: absolute;
+        opacity: 0.5;
+    }
+</style>
