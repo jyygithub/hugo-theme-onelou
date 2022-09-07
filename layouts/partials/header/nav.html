@@ -1,0 +1,12 @@
+<div class="top">
+    <a href="/">
+        <img src="/img/logo.png"/>
+    </a>
+    <nav>
+        {{ range .Site.Menus.navs }}
+        <a href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+        {{ end }}
+    </nav>
+</div>

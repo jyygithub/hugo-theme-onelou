@@ -1,0 +1,34 @@
+baseURL: http://localhost:1313/
+title: Example
+keywords: example
+description: example
+paginate: 10
+hasCJKLanguage: true
+params:
+  footer:
+    gongan:
+      code: "324234234234"
+      txt: "京公网安备1212号"
+    beian: "京IICP备121212号"
+    since: 2020
+    copyright: jiangyy
+  prefix:
+    h2: "※ "
+    h3: "✧ "
+menu:
+  navs:
+    - name: 笔记
+      params:
+        img: /img/icon.png
+      weight: 1
+      url: /note/
+    - name: 博客
+      params:
+        img: /img/icon.png
+      url: /post/
+      weight: 2
+    - name: 关于
+      params:
+        img: /img/icon.png
+      url: /404.html
+      weight: 3
