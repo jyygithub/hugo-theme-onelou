@@ -2,3 +2,4 @@
 /public/
 /.hugo_build.lock
 *.iml
+/exampleSite/.hugo_build.lock
