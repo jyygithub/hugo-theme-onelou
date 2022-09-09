@@ -2,7 +2,7 @@
 
 ## Demo
 
-[exampleSite](https://lou.one)
+[exampleSite](https://louone.netlify.app/)
 
 ## Documentation
 
