@@ -2,8 +2,12 @@
 
 ## Demo
 
-[exampleSite](https://louone.netlify.app/)
+[exampleSite](https://onelou.netlify.app/)
 
-## Documentation
+## Install
 
-[Documentation](https://jiangyy.com/docs/hugo-theme-onelou)
+```shell
+cd themes
+
+git clone https://github.com/jyygithub/hugo-theme-onelou.git
+```

@@ -1,9 +1,0 @@
-<h1>{{ .Title }}</h1>
-<div>
-    {{ range .Site.Menus.navs }}
-    <a href="{{ .URL }}">
-        <img src="{{ .Params.img }}" alt="">
-        {{ .Name }}
-    </a>
-    {{ end }}
-</div>

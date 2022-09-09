@@ -4,7 +4,7 @@ keywords: OneLou
 description: OneLou
 paginate: 10
 hasCJKLanguage: true
-languageCode: 'zh-CN'
+languageCode: 'en-us'
 params:
   footer:
     #    gongan:

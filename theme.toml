@@ -4,7 +4,7 @@ licenselink = "https://github.com/jyygithub/hugo-theme-onelou/blob/master/LICENS
 description = "A simple hugo theme."
 
 homepage = "https://github.com/jyygithub/hugo-theme-onelou"
-demosite = "https://louone.netlify.app/"
+demosite = "https://onelou.netlify.app/"
 
 tags = ["blog", "clean", "light", "dark", "personal"]
 features = ["fast", "simple"]
