@@ -28,12 +28,12 @@
     margin: 0;
 }
 
-.center_home div {
+.site-nav {
     /* display: inline-flex; */
     margin-top: 2em;
 }
 
-.center_home a {
+.site-nav a {
     margin: 0.25em 1em;
     color: var(--font-color);
     background: var(--scorllbar-color);
@@ -46,11 +46,11 @@
     text-align: center;
 }
 
-.center_home a:hover {
-    background: var(--primary-color)
+.site-nav a:hover {
+    background: var(--content-background-color);
 }
 
-.center_home img {
+.site-nav img {
     display: none;
 }
 

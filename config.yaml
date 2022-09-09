@@ -5,14 +5,22 @@ description: OneLou
 paginate: 10
 hasCJKLanguage: true
 languageCode: 'en-us'
-#theme: "hugo-theme-onelou"
+theme: # "hugo-theme-onelou"
 params:
+  opengraph:
+    github: 'https://github.com/jyygithub'
+    gitee: 'https:://gitee.com/jiangyychn'
+    csdn: 'https:://blog.csdn.net/jiangyychn'
+    juejin: 'https://juejin.cn/user/1996368845219944'
+    jianshu: 'https://www.jianshu.com/u/a8e69e7aeea8'
+    twitter: 'https://twitter.com'
+    facebook: 'https://facebook.com'
   footer:
-    #    hidePowered: true
-    #    gongan:
-    #      code: "XXXXX"
-    #      txt: "京公网安备XXXX号"
-    #    beian: "京IICP备XXXX号"
+    hidePowered: false # Powered by Hugo & theme OneLou
+    beian: # ICP备案号
+    gongan:
+      # code: 公安备案号XXXX
+      # txt: 京公网安备XXXX号
     since: 2022
     copyright: XXX
   prefix:
