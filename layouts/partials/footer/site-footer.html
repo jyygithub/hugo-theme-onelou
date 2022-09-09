@@ -2,6 +2,12 @@
 {{ if .IsHome }}
 <footer class="copyright">
     <div>
+        {{ if not .Site.Params.footer.hidePowered }}
+        <label>Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/jyygithub/hugo-theme-onelou">OneLou</a></label>
+        {{ end }}
+        <label>© {{ .Site.Params.footer.since }} {{ .Site.Params.footer.copyright }}</label>
+    </div>
+    <div>
         {{ if .Site.Params.footer.gongan }}
         <img alt="beian" src="img/beian.png"/>
         <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{ .Site.Params.footer.gongan.code }}">
@@ -10,7 +16,6 @@
         {{ if .Site.Params.footer.beian }}
         <a href="https://beian.miit.gov.cn/">{{ .Site.Params.footer.beian }}</a>
         {{ end }}
-        <label>© {{ .Site.Params.footer.since }} {{ .Site.Params.footer.copyright }}</label>
     </div>
 </footer>
 {{ end }}

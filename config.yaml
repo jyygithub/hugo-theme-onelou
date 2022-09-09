@@ -5,13 +5,15 @@ description: OneLou
 paginate: 10
 hasCJKLanguage: true
 languageCode: 'en-us'
+#theme: "hugo-theme-onelou"
 params:
   footer:
-    #    gongan:
-    #      code: "324234234234"
-    #      txt: "京公网安备1212号"
-    #    beian: "京IICP备121212号"
-    since: 2020
+#    hidePowered: true
+#    gongan:
+#      code: "XXXXX"
+#      txt: "京公网安备XXXX号"
+#    beian: "京IICP备XXXX号"
+    since: 2022
     copyright: XXX
   prefix:
     h2: "※ "
