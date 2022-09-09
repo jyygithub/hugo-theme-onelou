@@ -8,11 +8,11 @@ languageCode: 'en-us'
 #theme: "hugo-theme-onelou"
 params:
   footer:
-#    hidePowered: true
-#    gongan:
-#      code: "XXXXX"
-#      txt: "京公网安备XXXX号"
-#    beian: "京IICP备XXXX号"
+    #    hidePowered: true
+    #    gongan:
+    #      code: "XXXXX"
+    #      txt: "京公网安备XXXX号"
+    #    beian: "京IICP备XXXX号"
     since: 2022
     copyright: XXX
   prefix:

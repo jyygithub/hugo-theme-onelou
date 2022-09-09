@@ -1,6 +1,6 @@
 ---
-title: "这是一篇测试博客"
-date: 2022-09-07T10:17:19+08:00
+title: "Test blog"
+date: 2022-09-01T10:17:19+08:00
 draft: false
 tag: "tag1"
 ---
