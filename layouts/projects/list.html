@@ -6,7 +6,7 @@
 
 {{ define "center_main" }}
 <main class="center_main">
-    <div style="display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 1em">
+    <div class="center_main_projects_list">
         {{ range .Pages.ByDate }}
         {{ partial "item/projects" . }}
         {{ end }}

@@ -96,6 +96,12 @@
     background: var(--content-background-color);
 }
 
+.center_main_projects_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em
+}
+
 #TableOfContents {
     padding-right: 2em;
     padding-left: 0;
