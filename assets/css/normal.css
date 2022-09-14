@@ -21,7 +21,7 @@
 
 .center_home {
     position: fixed;
-    top: 40%;
+    top: 35%;
     left: 20%;
     width: 60%;
     color: var(--font-color);
@@ -34,12 +34,12 @@
     font-family: var(--website-title-font-family);
 }
 
-.center_home div {
+.site-nav {
     display: inline-flex;
     margin-top: 2em;
 }
 
-.center_home a {
+.site-nav a {
     color: var(--font-color);
     background: var(--scorllbar-color);
     text-decoration: none;
@@ -52,23 +52,15 @@
     text-align: center;
 }
 
-.center_home a:hover {
-    background: var(--primary-color)
+.site-nav a:hover {
+    background: var(--content-background-color);
 }
 
-.center_home img {
+.site-nav img {
     width: 1.75em;
     height: 1.75em;
     margin: 0 0.5em 0 0;
     padding: 0;
-}
-
-.center_main_contents_title {
-    position: fixed;
-    top: 6%;
-    text-align: center;
-    width: 25%;
-    right: 0;
 }
 
 .center_main_contents_left {

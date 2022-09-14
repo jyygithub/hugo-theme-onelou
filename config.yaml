@@ -5,14 +5,22 @@ description: OneLou
 paginate: 10
 hasCJKLanguage: true
 languageCode: 'en-us'
-#theme: "hugo-theme-onelou"
+theme: # "hugo-theme-onelou"
 params:
+  opengraph:
+    github: 'https://github.com/jyygithub'
+    gitee: 'https://gitee.com/'
+    csdn: 'https://blog.csdn.net/'
+    juejin: 'https://juejin.cn/'
+    jianshu: 'https://www.jianshu.com/'
+    twitter: 'https://twitter.com'
+    facebook: 'https://facebook.com'
   footer:
-    #    hidePowered: true
-    #    gongan:
-    #      code: "XXXXX"
-    #      txt: "京公网安备XXXX号"
-    #    beian: "京IICP备XXXX号"
+    hidePowered: false # Powered by Hugo & theme OneLou
+    beian: # ICP备案号
+    gongan:
+      # code: 公安备案号XXXX
+      # txt: 京公网安备XXXX号
     since: 2022
     copyright: XXX
   prefix:
@@ -20,18 +28,28 @@ params:
     h3: "✧ "
 menu:
   navs:
-    - name: Note
-      params:
-        img: /img/logo1.png
-      weight: 1
-      url: /note/
     - name: Blog
       params:
+        img: /img/logo1.png
+      url: /blog/
+      weight: 1
+    - name: Note
+      params:
         img: /img/logo2.png
-      url: /post/
+      weight: 2
+      url: /note/
+    - name: Projects
+      params:
+        img: /img/logo2.png
+      url: /projects/
       weight: 2
     - name: About
       params:
         img: /img/logo3.png
-      url: /404.html
+      url: /about
       weight: 3
+    - name: 404
+      params:
+        img: /img/logo3.png
+      url: /404.html
+      weight: 4

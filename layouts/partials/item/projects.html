@@ -1,0 +1,21 @@
+<style>
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        color: var(--font-color);
+        margin: 0;
+    }
+
+    label {
+        color: var(--font-color);
+    }
+</style>
+<a href="{{ or .Params.customURL .RelPermalink}}" style="text-decoration: none;">
+    <article>
+        <img src="{{ .Params.cover }}">
+        <h2>{{ .Name }}</h2>
+        <label>{{ .Description }}</label>
+    </article>
+</a>

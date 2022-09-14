@@ -1,4 +1,4 @@
-<a href="{{ .RelPermalink }}" style="text-decoration: none;">
+<a href="{{ or .Params.customURL .RelPermalink}}" style="text-decoration: none;">
 
     <div class="contents_share_item_cover" style="background: url({{.Params.Cover}});
     background-repeat: no-repeat;background-position: center;background-size: cover;">

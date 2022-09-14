@@ -6,10 +6,10 @@
 
 {{ define "center_main" }}
 <main class="center_main">
-
-    {{ range .Pages.ByDate }}
-    {{ partial "item/note" . }}
-    {{ end }}
-
+    <div style="display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 1em">
+        {{ range .Pages.ByDate }}
+        {{ partial "item/projects" . }}
+        {{ end }}
+    </div>
 </main>
 {{ end }}
