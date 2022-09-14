@@ -9,7 +9,7 @@
 
     {{ $paginator := .Paginate .Pages }}
     {{ range $paginator.Pages }}
-    {{ partial "article-list/contents" . }}
+    {{ partial "item/blog" . }}
     {{ end }}
 
     {{- partial "pagination.html" . -}}

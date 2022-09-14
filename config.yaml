@@ -28,18 +28,28 @@ params:
     h3: "✧ "
 menu:
   navs:
-    - name: Note
-      params:
-        img: /img/logo1.png
-      weight: 1
-      url: /note/
     - name: Blog
       params:
-        img: /img/logo2.png
+        img: /img/logo1.png
       url: /post/
+      weight: 1
+    - name: Note
+      params:
+        img: /img/logo2.png
+      weight: 2
+      url: /note/
+    - name: Projects
+      params:
+        img: /img/logo2.png
+      url: /projects/
       weight: 2
     - name: About
       params:
         img: /img/logo3.png
-      url: /404.html
+      url: /about
       weight: 3
+    - name: 404
+      params:
+        img: /img/logo3.png
+      url: /404.html
+      weight: 4

@@ -1,4 +1,4 @@
-<a href="{{ .RelPermalink }}" style="text-decoration: none;">
+<a href="{{ or .Params.customURL .RelPermalink}}" style="text-decoration: none;">
     <div class="contents_note_item">
         <h3>{{ .Title }}</h3>
     </div>
