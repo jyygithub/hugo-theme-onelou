@@ -5,14 +5,14 @@ description: OneLou
 paginate: 10
 hasCJKLanguage: true
 languageCode: 'en-us'
-theme: # "hugo-theme-onelou"
+theme: "hugo-theme-onelou"
 params:
   opengraph:
     github: 'https://github.com/jyygithub'
-    gitee: 'https:://gitee.com/jiangyychn'
-    csdn: 'https:://blog.csdn.net/jiangyychn'
-    juejin: 'https://juejin.cn/user/1996368845219944'
-    jianshu: 'https://www.jianshu.com/u/a8e69e7aeea8'
+    gitee: 'https://gitee.com/'
+    csdn: 'https://blog.csdn.net/'
+    juejin: 'https://juejin.cn/'
+    jianshu: 'https://www.jianshu.com/'
     twitter: 'https://twitter.com'
     facebook: 'https://facebook.com'
   footer:
@@ -31,7 +31,7 @@ menu:
     - name: Blog
       params:
         img: /img/logo1.png
-      url: /post/
+      url: /blog/
       weight: 1
     - name: Note
       params:
