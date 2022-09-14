@@ -31,7 +31,7 @@ menu:
     - name: Blog
       params:
         img: /img/logo1.png
-      url: /blog/
+      url: /post/
       weight: 1
     - name: Note
       params:
