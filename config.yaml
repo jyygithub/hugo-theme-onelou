@@ -5,7 +5,7 @@ description: OneLou
 paginate: 10
 hasCJKLanguage: true
 languageCode: 'en-us'
-theme: "hugo-theme-onelou"
+theme: # "hugo-theme-onelou"
 params:
   opengraph:
     github: 'https://github.com/jyygithub'
