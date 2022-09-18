@@ -1,3 +1,7 @@
+module:
+    hugoVersion:
+        extended: true
+        min: "0.87.0"
 baseURL: http://localhost:1313/
 title: OneLou
 keywords: OneLou
@@ -31,7 +35,7 @@ menu:
     - name: Blog
       params:
         img: /img/logo1.png
-      url: /blog/
+      url: /post/
       weight: 1
     - name: Note
       params:
