@@ -2,7 +2,7 @@
 
 ## Demo
 
-[exampleSite](https://onelou.netlify.app/)
+[exampleSite](https://onelou.pages.dev/)
 
 ## Install
 
